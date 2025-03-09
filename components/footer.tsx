@@ -96,8 +96,8 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Kontak</h3>
             <address className="not-italic text-gray-400 space-y-2">
-              <p>Jl. Konstruksi No. 123</p>
-              <p>Jakarta Selatan, 12345</p>
+              <p>Jl. Ngarangbebas No. 666</p>
+              <p>Kota Cirebon, 45188</p>
               <p>Telepon: +62 895-349-90050</p>
               <p>Email: kontak.struktura@gmail.com</p>
             </address>
