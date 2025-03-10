@@ -96,8 +96,8 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Kontak</h3>
             <address className="not-italic text-gray-400 space-y-2">
-              <p>Jl. Konstruksi No. 123</p>
-              <p>Jakarta Selatan, 12345</p>
+              <p>Jl. Ngarangbebas No. 666</p>
+              <p>Kota Cirebon, 45188</p>
               <p>Telepon: +62 895-349-90050</p>
               <p>Email: kontak.struktura@gmail.com</p>
             </address>
@@ -105,7 +105,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} Struktura. Hak Cipta Dilindungi.</p>
+          <p>&copy; {new Date().getFullYear()} Struktura Dev by Abdee "GOLEM" Alfarizi Hak Cipta Dilindungi.</p>
         </div>
       </div>
     </footer>

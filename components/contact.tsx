@@ -41,9 +41,9 @@ export default function Contact() {
             <h3 className="text-xl font-bold text-gray-900 mb-2">Kantor</h3>
             <p className="text-gray-600 mb-4">Kunjungi kantor pusat kami</p>
             <address className="not-italic text-yellow-600 font-semibold">
-              Jl. Konstruksi No. 123
+              Jl. Ngarangbebas No. 666
               <br />
-              Jakarta Selatan, 12345
+              Kota Cirebon, 45188
             </address>
           </div>
         </div>
