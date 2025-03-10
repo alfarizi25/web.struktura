@@ -41,7 +41,7 @@ export default function Contact() {
             <h3 className="text-xl font-bold text-gray-900 mb-2">Kantor</h3>
             <p className="text-gray-600 mb-4">Kunjungi kantor pusat kami</p>
             <address className="not-italic text-yellow-600 font-semibold">
-              Jl. Ngarangbebas No. 666
+              Puri Argapura No.B1 Jl. Sekarsari RT.001 RW.001
               <br />
               Kota Cirebon, 45188
             </address>
