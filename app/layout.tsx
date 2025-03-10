@@ -1,16 +1,16 @@
 "use client"
 
 import type React from "react"
-
 import { useEffect } from "react"
 import { Inter } from "next/font/google"
 import "./globals.css"
+import { Analytics } from "@vercel/analytics/react"
 import emailjs from "@emailjs/browser"
 
 const inter = Inter({ subsets: ["latin"] })
 
 // Ganti dengan Public Key Anda dari EmailJS
-const PUBLIC_KEY = "YxuRQCsGkW9G-QmcY" // contoh: user_abcdefg123456
+const PUBLIC_KEY = "YOUR_PUBLIC_KEY" // contoh: user_abcdefg123456
 
 export default function RootLayout({
   children,
@@ -19,12 +19,17 @@ export default function RootLayout({
 }>) {
   useEffect(() => {
     // Inisialisasi EmailJS
-    emailjs.init(PUBLIC_KEY)
+    if (PUBLIC_KEY !== "YOUR_PUBLIC_KEY") {
+      emailjs.init(PUBLIC_KEY)
+    }
   }, [])
 
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children}
+        <Analytics />
+      </body>
     </html>
   )
 }
